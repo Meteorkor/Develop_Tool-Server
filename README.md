@@ -14,6 +14,7 @@ Develop_Tool-Server
 #Tomcat
 
 #Git
++ public : GitHub
 + private : Bitbucket
 
 #Vagrant
