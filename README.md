@@ -40,7 +40,8 @@
 #### mvn Run ####
 	mvn tomcat7:redeploy
 	
-
+### Pom Optimization ###
+	mvn help:effective-pom
 #Nginx
 + Tomcat Proxy
 + MP4 module
