@@ -1,9 +1,8 @@
 Develop_Tool-Server
 ===================
 
-#Eclipse(STS)
-+ Optimization
-
+# Eclipse(STS) #
+### optimization ###
 	-Xverify:none
 	-XX:+UseParallelGC
 	-XX:+AggressiveOpts
@@ -14,7 +13,6 @@ Develop_Tool-Server
 	-XX:NewSize=128M
 	-Xms1024M
 	-Xmx1024M 
-
 #Maven
 + Tomcat Deploy
 
