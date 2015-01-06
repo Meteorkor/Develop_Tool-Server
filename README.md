@@ -41,7 +41,8 @@
 	mvn tomcat7:redeploy
 	
 ### Pom Optimization ###
-	mvn help:effective-pom
+	mvn help:effective-pom -Doutput=out.txt
+	
 #Nginx
 + Tomcat Proxy
 + MP4 module
