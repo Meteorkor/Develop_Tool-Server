@@ -68,11 +68,12 @@
 + http://jenkins-ci.org/
 + Install Tomcat, and Deploy
  
-#Jconsole
-+ JAVAHOME/bin
+#JConsole
++ JAVAHOME/bin/jconsole.exe
 + Session Monitor : MBeans/Catalina/Manager/Host/Attribute - activeSessions
 
 #JvisualVM
++ JAVAHOME/bin/jvisualvm.exe
 + Real Process Status Monitoring
 
 
