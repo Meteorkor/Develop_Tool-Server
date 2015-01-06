@@ -64,3 +64,7 @@ Develop_Tool-Server
 
 #SonarQube
 + http://www.sonarqube.org/
+
+#Jenkins
++ http://jenkins-ci.org/
++ Install Tomcat, and Deploy
