@@ -19,7 +19,7 @@ Develop_Tool-Server
 	Window > Preferences > Java > Editor > Save Actions - Organzize imports On
 	Window > Preferences > Java > Editor > Content Assist - Enable auto activation off
 	Window > Preferences > General > Appearance > Colors and Font > Basic > Text - Font Set
-	
+
 #Maven
 ### Tomcat Deploy ###
 #### "tomcat-users.xml" Add User, role ####
