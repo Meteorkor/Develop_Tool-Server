@@ -4,6 +4,17 @@ Develop_Tool-Server
 #Eclipse(STS)
 + Optimization
 
+	-Xverify:none
+	-XX:+UseParallelGC
+	-XX:+AggressiveOpts
+	-XX:-UseConcMarkSweepGC
+	-XX:PermSize=128M
+	-XX:MaxPermSize=128M
+	-XX:MaxNewSize=128M
+	-XX:NewSize=128M
+	-Xms1024M
+	-Xmx1024M 
+
 #Maven
 + Tomcat Deploy
 
