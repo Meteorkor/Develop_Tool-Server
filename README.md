@@ -44,8 +44,28 @@
 	mvn help:effective-pom -Doutput=out.txt
 	
 #Nginx
-+ Tomcat Proxy
-+ MP4 module
+### Tomcat Proxy###
+	upstream tomcat {
+		server 127.0.0.1:38080;
+	
+
+	location / {
+	         proxy_redirect     off;
+	         proxy_set_header   Host             $host;
+	         proxy_set_header   X-Real-IP        $remote_addr;
+	         proxy_set_header   X-Forwarded-For  $remote_addr;
+	         proxy_set_header   Proxy-Client-IP  $proxy_add_x_forwarded_for;
+	         proxy_pass http://tomcat;
+		index  index.jsp;
+		}
+### MP4 module###
+	location /mp4/ {
+          mp4;
+          mp4_buffer_size 100M;
+          mp4_max_buffer_size 2000M;
+          alias   "G:/MP4/";
+        }
+
 
 #Tomcat
 
