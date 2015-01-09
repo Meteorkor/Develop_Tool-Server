@@ -91,6 +91,11 @@
 #JConsole
 + JAVAHOME/bin/jconsole.exe
 + Session Monitor : MBeans/Catalina/Manager/Host/Attribute - activeSessions
+###Tomcat add option###
+	-Dcom.sun.management.jmxremote
+	-Dcom.sun.management.jmxremote.port=8999
+	-Dcom.sun.management.jmxremote.ssl=false
+	-Dcom.sun.management.jmxremote.authenticate=false
 
 #JvisualVM
 + JAVAHOME/bin/jvisualvm.exe
