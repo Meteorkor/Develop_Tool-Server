@@ -11,7 +11,7 @@
 	-Xms1024M
 	-Xmx1024M 
 	
-	Window > preferences > General - Show heap status option On
+	Window > Preferences > General - Show heap status option On
 	Window > Preferences > General > Editors > Spellings - Enable spell checking Off
 	Window > Preferences > Java > Editor > Save Actions - Organzize imports On
 	Window > Preferences > Java > Editor > Content Assist - Enable auto activation off
