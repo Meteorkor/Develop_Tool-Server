@@ -12,7 +12,7 @@
 	-Xmx1024M 
 	
 	Window > Perference > General - Show heap status option On
-	Window > Prereces > General > Editors > Spellings - Encable spell checking Off
+	Window > Prereces > General > Editors > Spellings - Enable spell checking Off
 	Window > Preferences > Java > Editor > Save Actions - Organzize imports On
 	Window > Preferences > Java > Editor > Content Assist - Enable auto activation off
 	Window > Preferences > General > Appearance > Colors and Font > Basic > Text - Font Set
