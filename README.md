@@ -83,6 +83,9 @@
 
 #SonarQube
 + http://www.sonarqube.org/
++ deploy Sonar War
++ install Sonar Runner
++ Sonar Runner run
 
 #Jenkins
 + http://jenkins-ci.org/
